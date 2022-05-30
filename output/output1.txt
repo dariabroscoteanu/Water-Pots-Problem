@@ -1,0 +1,106 @@
+***************************************** BFS Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 3; quantity = 2;  color = yellow;
+Pot -> id = 1; capacity = 2; quantity = 2;  color = red;
+Pot -> id = 2; capacity = 4; quantity = 4;  color = blue;
+
+---------------------------------------------------------------
+
+------------------------- Input Without Solution -------------------------
+Time elapsed since starting the program: 0.0
+
+Maximum number of nodes in memory: 1
+
+Number of expanded nodes: 1
+
+------------------------------------------------------------------------
+
+***************************************** End BFS Algorithm *****************************************
+***************************************** DFS Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 3; quantity = 2;  color = yellow;
+Pot -> id = 1; capacity = 2; quantity = 2;  color = red;
+Pot -> id = 2; capacity = 4; quantity = 4;  color = blue;
+
+---------------------------------------------------------------
+
+------------------------- Input Without Solution -------------------------
+Time elapsed since starting the program: 3.995656967163086
+
+Maximum number of nodes in memory: 1
+
+Number of expanded nodes: 1
+
+------------------------------------------------------------------------
+
+***************************************** IDF Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 3; quantity = 2;  color = yellow;
+Pot -> id = 1; capacity = 2; quantity = 2;  color = red;
+Pot -> id = 2; capacity = 4; quantity = 4;  color = blue;
+
+---------------------------------------------------------------
+
+------------------------- Input Without Solution -------------------------
+Time elapsed since starting the program: 3.995656967163086
+
+Maximum number of nodes in memory: 1
+
+Number of expanded nodes: 1
+
+------------------------------------------------------------------------
+
+***************************************** A Star Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 3; quantity = 2;  color = yellow;
+Pot -> id = 1; capacity = 2; quantity = 2;  color = red;
+Pot -> id = 2; capacity = 4; quantity = 4;  color = blue;
+
+---------------------------------------------------------------
+
+------------------------- Input Without Solution -------------------------
+Time elapsed since starting the program: 3.995656967163086
+
+Maximum number of nodes in memory: 1
+
+Number of expanded nodes: 1
+
+------------------------------------------------------------------------
+
+
+***************************************** A Star Opt Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 3; quantity = 2;  color = yellow;
+Pot -> id = 1; capacity = 2; quantity = 2;  color = red;
+Pot -> id = 2; capacity = 4; quantity = 4;  color = blue;
+
+---------------------------------------------------------------
+
+------------------------- Input Without Solution -------------------------
+Time elapsed since starting the program: 3.995656967163086
+
+Maximum number of nodes in memory: 1
+
+Number of expanded nodes: 1
+
+------------------------------------------------------------------------
+
+***************************************** IDA Star Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 3; quantity = 2;  color = yellow;
+Pot -> id = 1; capacity = 2; quantity = 2;  color = red;
+Pot -> id = 2; capacity = 4; quantity = 4;  color = blue;
+
+---------------------------------------------------------------
+
+------------------------- Input Without Solution -------------------------
+Time elapsed since starting the program: 3.995656967163086
+
+Maximum number of nodes in memory: 1
+
+Number of expanded nodes: 1
+
+------------------------------------------------------------------------
+
+No more solutions
+***************************************** End IDA Star Opt Algorithm *****************************************

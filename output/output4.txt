@@ -1,0 +1,205 @@
+***************************************** BFS Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 2; quantity = 0;
+Pot -> id = 1; capacity = 7; quantity = 3;  color = blue;
+Pot -> id = 2; capacity = 4; quantity = 3;  color = red;
+Pot -> id = 3; capacity = 5; quantity = 4;  color = green;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+---------------------------------------------------------------
+
+3 liters of colored water red were poured from the pot 2 into the pot 1
+Pot -> id = 0; capacity = 2; quantity = 0;
+Pot -> id = 1; capacity = 7; quantity = 6;  color = purple;
+Pot -> id = 2; capacity = 4; quantity = 0;
+Pot -> id = 3; capacity = 5; quantity = 4;  color = green;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+2 liters of colored water green were poured from the pot 3 into the pot 0
+Pot -> id = 0; capacity = 2; quantity = 2;  color = green;
+Pot -> id = 1; capacity = 7; quantity = 6;  color = purple;
+Pot -> id = 2; capacity = 4; quantity = 0;
+Pot -> id = 3; capacity = 5; quantity = 2;  color = green;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+3 liters of colored water purple were poured from the pot 1 into the pot 3
+Pot -> id = 0; capacity = 2; quantity = 2;  color = green;
+Pot -> id = 1; capacity = 7; quantity = 3;  color = purple;
+Pot -> id = 2; capacity = 4; quantity = 0;
+Pot -> id = 3; capacity = 5; quantity = 5;  color = brown;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+Path cost: 39
+Path length: 4
+
+Time elapsed since starting the program: 84.0306282043457
+
+Maximum number of nodes in memory: 485
+
+Number of expanded nodes: 553
+
+----------------------------------------------------------
+
+***************************************** End BFS Algorithm *****************************************
+***************************************** DFS Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 2; quantity = 0;
+Pot -> id = 1; capacity = 7; quantity = 3;  color = blue;
+Pot -> id = 2; capacity = 4; quantity = 3;  color = red;
+Pot -> id = 3; capacity = 5; quantity = 4;  color = green;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+---------------------------------------------------------------
+
+Time Limit Exceeded
+***************************************** End DFS Algorithm *****************************************
+***************************************** IDF Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 2; quantity = 0;
+Pot -> id = 1; capacity = 7; quantity = 3;  color = blue;
+Pot -> id = 2; capacity = 4; quantity = 3;  color = red;
+Pot -> id = 3; capacity = 5; quantity = 4;  color = green;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+---------------------------------------------------------------
+
+3 liters of colored water red were poured from the pot 2 into the pot 1
+Pot -> id = 0; capacity = 2; quantity = 0;
+Pot -> id = 1; capacity = 7; quantity = 6;  color = purple;
+Pot -> id = 2; capacity = 4; quantity = 0;
+Pot -> id = 3; capacity = 5; quantity = 4;  color = green;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+2 liters of colored water green were poured from the pot 3 into the pot 0
+Pot -> id = 0; capacity = 2; quantity = 2;  color = green;
+Pot -> id = 1; capacity = 7; quantity = 6;  color = purple;
+Pot -> id = 2; capacity = 4; quantity = 0;
+Pot -> id = 3; capacity = 5; quantity = 2;  color = green;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+3 liters of colored water purple were poured from the pot 1 into the pot 3
+Pot -> id = 0; capacity = 2; quantity = 2;  color = green;
+Pot -> id = 1; capacity = 7; quantity = 3;  color = purple;
+Pot -> id = 2; capacity = 4; quantity = 0;
+Pot -> id = 3; capacity = 5; quantity = 5;  color = brown;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+Path cost: 39
+Path length: 4
+
+Time elapsed since starting the program: 5192.078113555908
+
+Maximum number of nodes in memory: 13
+
+Number of expanded nodes: 37
+
+----------------------------------------------------------
+
+***************************************** End IDF Algorithm *****************************************
+***************************************** A Star Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 2; quantity = 0;
+Pot -> id = 1; capacity = 7; quantity = 3;  color = blue;
+Pot -> id = 2; capacity = 4; quantity = 3;  color = red;
+Pot -> id = 3; capacity = 5; quantity = 4;  color = green;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+---------------------------------------------------------------
+
+------------------------- Solution -------------------------
+2 liters of colored water blue were poured from the pot 1 into the pot 0
+Pot -> id = 0; capacity = 2; quantity = 2;  color = blue;
+Pot -> id = 1; capacity = 7; quantity = 1;  color = blue;
+Pot -> id = 2; capacity = 4; quantity = 3;  color = red;
+Pot -> id = 3; capacity = 5; quantity = 4;  color = green;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+1 liters of colored water blue were poured from the pot 0 into the pot 2
+Pot -> id = 0; capacity = 2; quantity = 1;  color = blue;
+Pot -> id = 1; capacity = 7; quantity = 1;  color = blue;
+Pot -> id = 2; capacity = 4; quantity = 4;  color = purple;
+Pot -> id = 3; capacity = 5; quantity = 4;  color = green;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+1 liters of colored water yellow were poured from the pot 4 into the pot 0
+Pot -> id = 0; capacity = 2; quantity = 2;  color = green;
+Pot -> id = 1; capacity = 7; quantity = 1;  color = blue;
+Pot -> id = 2; capacity = 4; quantity = 4;  color = purple;
+Pot -> id = 3; capacity = 5; quantity = 4;  color = green;
+Pot -> id = 4; capacity = 2; quantity = 1;  color = yellow;
+
+1 liters of colored water purple were poured from the pot 2 into the pot 3
+Pot -> id = 0; capacity = 2; quantity = 2;  color = green;
+Pot -> id = 1; capacity = 7; quantity = 1;  color = blue;
+Pot -> id = 2; capacity = 4; quantity = 3;  color = purple;
+Pot -> id = 3; capacity = 5; quantity = 5;  color = brown;
+Pot -> id = 4; capacity = 2; quantity = 1;  color = yellow;
+
+Path cost: 25
+Path length: 5
+
+Time elapsed since starting the program: 7060.122489929199
+
+Maximum number of nodes in memory: 1381
+
+Number of expanded nodes: 5864
+
+----------------------------------------------------------
+
+
+***************************************** A Star Opt Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 2; quantity = 0;
+Pot -> id = 1; capacity = 7; quantity = 3;  color = blue;
+Pot -> id = 2; capacity = 4; quantity = 3;  color = red;
+Pot -> id = 3; capacity = 5; quantity = 4;  color = green;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+---------------------------------------------------------------
+
+------------------------- Solution -------------------------
+3 liters of colored water red were poured from the pot 2 into the pot 1
+Pot -> id = 0; capacity = 2; quantity = 0;
+Pot -> id = 1; capacity = 7; quantity = 6;  color = purple;
+Pot -> id = 2; capacity = 4; quantity = 0;
+Pot -> id = 3; capacity = 5; quantity = 4;  color = green;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+2 liters of colored water green were poured from the pot 3 into the pot 0
+Pot -> id = 0; capacity = 2; quantity = 2;  color = green;
+Pot -> id = 1; capacity = 7; quantity = 6;  color = purple;
+Pot -> id = 2; capacity = 4; quantity = 0;
+Pot -> id = 3; capacity = 5; quantity = 2;  color = green;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+3 liters of colored water purple were poured from the pot 1 into the pot 3
+Pot -> id = 0; capacity = 2; quantity = 2;  color = green;
+Pot -> id = 1; capacity = 7; quantity = 3;  color = purple;
+Pot -> id = 2; capacity = 4; quantity = 0;
+Pot -> id = 3; capacity = 5; quantity = 5;  color = brown;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+Path cost: 39
+Path length: 4
+
+Time elapsed since starting the program: 7980.114221572876
+
+Maximum number of nodes in memory: 1596
+
+Number of expanded nodes: 2984
+
+----------------------------------------------------------
+
+***************************************** End A Star Opt Algorithm *****************************************
+***************************************** IDA Star Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 2; quantity = 0;
+Pot -> id = 1; capacity = 7; quantity = 3;  color = blue;
+Pot -> id = 2; capacity = 4; quantity = 3;  color = red;
+Pot -> id = 3; capacity = 5; quantity = 4;  color = green;
+Pot -> id = 4; capacity = 2; quantity = 2;  color = yellow;
+
+---------------------------------------------------------------
+
+Time Limit Exceeded
+***************************************** End IDA Star Algorithm *****************************************

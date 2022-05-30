@@ -1,0 +1,19 @@
+purple green brown
+yellow blue green
+red blue purple
+blue 5
+yellow 3
+green 5
+brown 4
+red 2
+purple 7
+start_state
+2 0
+7 3 blue
+4 3 red
+5 4 green
+2 2 yellow
+final_state
+2 green
+3 purple
+

@@ -1,0 +1,13 @@
+blue yellow green
+blue 3
+yellow 7
+green 10
+start_state
+5 3 blue
+4 2 yellow
+3 0
+5 5 yellow
+final_state
+4 green
+3 yellow
+    

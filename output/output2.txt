@@ -1,0 +1,115 @@
+***************************************** BFS Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 2; quantity = 2;  color = blue;
+Pot -> id = 1; capacity = 3; quantity = 3;  color = red;
+Pot -> id = 2; capacity = 4; quantity = 4;  color = yellow;
+
+---------------------------------------------------------------
+
+The start state is the same as a final state
+Path cost: 0
+
+Path length: 1
+
+Time elapsed since starting the program: 0.0
+
+Maximum number of nodes in memory: 1
+
+Number of expanded nodes: 1
+
+***************************************** DFS Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 2; quantity = 2;  color = blue;
+Pot -> id = 1; capacity = 3; quantity = 3;  color = red;
+Pot -> id = 2; capacity = 4; quantity = 4;  color = yellow;
+
+---------------------------------------------------------------
+
+The start state is the same as a final state
+Path cost: 0
+
+Path length: 1
+
+Time elapsed since starting the program: 0.0
+
+Maximum number of nodes in memory: 1
+
+Number of expanded nodes: 1
+
+***************************************** IDF Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 2; quantity = 2;  color = blue;
+Pot -> id = 1; capacity = 3; quantity = 3;  color = red;
+Pot -> id = 2; capacity = 4; quantity = 4;  color = yellow;
+
+---------------------------------------------------------------
+
+The start state is the same as a final state
+Path cost: 0
+
+Path length: 1
+
+Time elapsed since starting the program: 0.0
+
+Maximum number of nodes in memory: 1
+
+Number of expanded nodes: 1
+
+***************************************** A Star Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 2; quantity = 2;  color = blue;
+Pot -> id = 1; capacity = 3; quantity = 3;  color = red;
+Pot -> id = 2; capacity = 4; quantity = 4;  color = yellow;
+
+---------------------------------------------------------------
+
+The start state is the same as a final state
+Path cost: 0
+
+Path length: 1
+
+Time elapsed since starting the program: 0.0
+
+Maximum number of nodes in memory: 1
+
+Number of expanded nodes: 1
+
+
+***************************************** A Star Opt Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 2; quantity = 2;  color = blue;
+Pot -> id = 1; capacity = 3; quantity = 3;  color = red;
+Pot -> id = 2; capacity = 4; quantity = 4;  color = yellow;
+
+---------------------------------------------------------------
+
+The start state is the same as a final state
+Path cost: 0
+
+Path length: 1
+
+Time elapsed since starting the program: 0.0
+
+Maximum number of nodes in memory: 1
+
+Number of expanded nodes: 1
+
+***************************************** IDA Star Algorithm *****************************************
+------------------------- Start State -------------------------
+Pot -> id = 0; capacity = 2; quantity = 2;  color = blue;
+Pot -> id = 1; capacity = 3; quantity = 3;  color = red;
+Pot -> id = 2; capacity = 4; quantity = 4;  color = yellow;
+
+---------------------------------------------------------------
+
+The start state is the same as a final state
+Path cost: 0
+
+Path length: 1
+
+Time elapsed since starting the program: 0.0
+
+Maximum number of nodes in memory: 1
+
+Number of expanded nodes: 1
+
